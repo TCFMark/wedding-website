@@ -289,10 +289,11 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  background: rgba(0,0,0,0.3);
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(0, 0, 128);
   z-index: 999;
   width: 100%;
 }
@@ -453,7 +454,6 @@ Features-stack
   ul.features-stack li {
     margin-top: 20px;
     padding-bottom: 20px;
-    border-bottom: solid 1px $keyline-color;
   }
   ul.features-stack li:last-child {
     padding-bottom: 0px;
