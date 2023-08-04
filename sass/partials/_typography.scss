@@ -2,10 +2,14 @@
 @import "partials/colors";
 
 // Fonts
+@font-face {
+  font-family: Fiona;
+  src: url(../fonts/Fiona-Regular.ttf);
+}
 
-$sans-serif: 'Open Sans', sans-serif;
-$serif: Merriweather, Georgia, 'Times New Roman', serif;
-$accent-font: 'Nunito', sans-serif;
+$sans-serif: Fiona, 'Open Sans', sans-serif;
+$serif: Fiona, Merriweather, Georgia, 'Times New Roman', serif;
+$accent-font: Fiona, 'Nunito', sans-serif;
 
 // Weights
 
@@ -16,18 +20,18 @@ $bold: 700;
 
 // Sizes
 
-$font-size-h1: 60px;
-$font-size-h2: 40px;
-$font-size-h3: 24px;
-$font-size-h4: 18px;
-$font-size-h5: 15px;
-$font-size-p: 15px;
-$nav-font-size: 13px;
-$blog-post-title: 11px;
+$font-size-h1: 90px;
+$font-size-h2: 60px;
+$font-size-h3: 36px;
+$font-size-h4: 27px;
+$font-size-h5: 22px;
+$font-size-p: 22px;
+$nav-font-size: 20px;
+$blog-post-title: 16px;
 
 // Responsive Sizes
 
-$responsive-h1: 40px;
+$responsive-h1: 60px;
 
 // Line height
 
