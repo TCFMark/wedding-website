@@ -40,6 +40,7 @@ body {
   font-family: $sans-serif;
   font-weight: $light;
   color: $txt-primary;
+  background-color: #000080;
   -webkit-text-size-adjust: 100%;
   //fix for iOS
 }
@@ -896,4 +897,5 @@ body.modal-open {
 }
 .modal-body {
   padding:25px;
+  background-color: $section-dark;
 }
