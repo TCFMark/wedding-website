@@ -104,6 +104,9 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+.desc {
+  font-size: 16px;
+}
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -560,7 +563,7 @@ Features-stack
   }
 
   .time {
-    font-size: 13px;
+    font-size: 16px;
     font-style: italic;
     text-transform: lowercase;
     color: $txt-primary;
@@ -898,5 +901,5 @@ body.modal-open {
 }
 .modal-body {
   padding:25px;
-  background-color: $section-dark;
+  background-color: $section-modal;
 }
