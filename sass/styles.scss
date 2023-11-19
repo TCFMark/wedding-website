@@ -798,6 +798,12 @@ RSVP form
       width: 100%;
       font-size: 13px;
     }
+    input.checkbox {
+      display: inline;
+      width: 20px;
+      height: 20px;
+      text-align: left;
+    }
     .form-input-group {
       width: 100%;
       height: 55px;
